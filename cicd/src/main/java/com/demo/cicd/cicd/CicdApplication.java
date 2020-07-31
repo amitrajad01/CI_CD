@@ -14,6 +14,6 @@ public class CicdApplication {
 	}
 	@GetMapping("/message")
 	public String message() {
-		return "CI/CD";
+		return "My First CI/CD";
 	}
 }
